@@ -34,8 +34,21 @@ namespace SaleManagementWinform
         }
         private void LoadData()
         {
-            // SQL query to fetch data
-            string query = "SELECT * FROM PurchaseHistory";
+            // SQL query to fetch data with JOIN
+            string query = @"
+        SELECT 
+            ph.PurchaseID, 
+            ph.CustomerCode, 
+            ph.Code AS ProductCode, 
+            p.Name AS ProductName, 
+            ph.PurchaseDate, 
+            ph.Quantity, 
+            p.Price, 
+            p.Active AS ProductActiveStatus
+        FROM 
+            [SALE_MANGEMENT].[dbo].[PurchaseHistory] ph
+        JOIN 
+            [SALE_MANGEMENT].[dbo].[Product] p ON ph.Code = p.Code";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
@@ -57,10 +70,11 @@ namespace SaleManagementWinform
                 catch (Exception ex)
                 {
                     // Handle any errors that may occur
-                    MessageBox.Show("An error occurred: " + ex.Message);
+                    MessageBox.Show("An error occurred while loading data: " + ex.Message);
                 }
             }
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
