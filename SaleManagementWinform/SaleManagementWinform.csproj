@@ -76,6 +76,12 @@
     <Compile Include="CustomerForm.Designer.cs">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="customerorders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerorders.Designer.cs">
+      <DependentUpon>customerorders.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,12 @@
     </Compile>
     <Compile Include="MenuForm.Designer.cs">
       <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oder.Designer.cs">
+      <DependentUpon>Oder.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -156,6 +168,12 @@
     <Compile Include="UpdatePurchaseHistory.Designer.cs">
       <DependentUpon>UpdatePurchaseHistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utils.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils.Designer.cs">
+      <DependentUpon>Utils.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +189,9 @@
     <EmbeddedResource Include="CustomerForm.resx">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="customerorders.resx">
+      <DependentUpon>customerorders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeForm.resx">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oder.resx">
+      <DependentUpon>Oder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -247,6 +271,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Premium Vector _ Customer with online shopping set icons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamborghini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMW5SeriesTOPJPG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugatti.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ferrari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maybach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w-phantom-viii-8-1-635.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

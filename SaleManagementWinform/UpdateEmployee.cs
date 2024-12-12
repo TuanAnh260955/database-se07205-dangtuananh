@@ -52,9 +52,9 @@ namespace SaleManagementWinform
                     {
                         // Add parameters to prevent SQL injection
                         command.Parameters.AddWithValue("@Code", code);
-                        command.Parameters.AddWithValue("@Name", Name); // Sử dụng 'name' thay vì 'FullName'
+                        command.Parameters.AddWithValue("@Name", fullName); // Sử dụng 'fullName' thay vì 'Name'
                         command.Parameters.AddWithValue("@Position", position);
-                        command.Parameters.AddWithValue("@RoleId", roleId); // Sử dụng 'roleid' thay vì 'Role'
+                        command.Parameters.AddWithValue("@RoleId", roleId);
                         command.Parameters.AddWithValue("@Username", username);
                         command.Parameters.AddWithValue("@Password", password);
 
@@ -120,43 +120,38 @@ namespace SaleManagementWinform
         
         private string GetSelectedRoleid()
         {
-            if (radioButtonAdmin.Checked) return "admin";
-            if (radioButtonWarehouse.Checked) return "warehouse";
-            if (radioButtonSale.Checked) return "sale";
-            if (radioButtonCustomer.Checked) return "customer";
+            if (radioButtonAdmin.Checked) return "Admin";
+            if (radioButtonWarehouse.Checked) return "Warehouse";
+            if (radioButtonSale.Checked) return "Sale";
+            if (radioButtonCustomer.Checked) return "Customer";
 
             MessageBox.Show("No role selected."); // Thông báo nếu không có vai trò nào được chọn
             return string.Empty;
         }
         private int GetRoleId(string roleName)
         {
-            int roleId = -1; // Giá trị mặc định nếu không tìm thấy
-            string query = "SELECT id FROM [Role] WHERE roleName = @RoleName";
-
-            // Ghi nhận giá trị roleName
-            Console.WriteLine($"Searching for role: '{roleName}'");
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            if (string.IsNullOrWhiteSpace(roleName))
             {
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@RoleName", roleName);
-
-                connection.Open();
-                object result = command.ExecuteScalar();
-                if (result != null)
-                {
-                    roleId = Convert.ToInt32(result);
-                }
+                throw new ArgumentException("Role name cannot be null or empty.");
             }
 
-            // Kiểm tra xem roleId có hợp lệ không
-            if (roleId == -1)
+            // Chuyển roleName sang chữ thường để khớp với định dạng trong roles
+            roleName = roleName.ToLowerInvariant();
+
+            var roles = new Dictionary<string, int>
+    {
+        { "admin", 1 },
+        { "warehouse", 2 },
+        { "sale", 3 },
+        { "customer", 4 }
+    };
+
+            if (!roles.ContainsKey(roleName))
             {
-                // Thêm thông báo lỗi nếu không tìm thấy vai trò
-                throw new ArgumentException($"Invalid role: '{roleName}'");
+                throw new ArgumentException($"Invalid role: '{roleName}'. Role not found in valid roles.");
             }
 
-            return roleId;
+            return roles[roleName];
         }
         private bool IsValidRole(string roleName)
         {

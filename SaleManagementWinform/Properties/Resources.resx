@@ -118,19 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Premium Vector _ Customer with online shopping set icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premium Vector _ Customer with online shopping set icons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maybach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maybach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="design-logo-ban-hang-online" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\design-logo-ban-hang-online.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bugatti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bugatti.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image data" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image data.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BMW5SeriesTOPJPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BMW5SeriesTOPJPG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lamborghini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lamborghini.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo Btec" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo Btec.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Premium Vector _ Customer with online shopping set icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Premium Vector _ Customer with online shopping set icons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ferrari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ferrari.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="w-phantom-viii-8-1-635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\w-phantom-viii-8-1-635.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace SaleManagementWinform
 {
@@ -46,13 +47,34 @@ namespace SaleManagementWinform
             string code = tbx_code.Text;
             string username = tbx_username.Text;
             string password = tbx_password.Text;
-
-            string hashPassword = HashPassword(password);
             string position = tbx_position.Text;
 
-            int roleID = 2;
+            // Kiểm tra dữ liệu nhập vào
+            if (string.IsNullOrWhiteSpace(fullname) || string.IsNullOrWhiteSpace(code) ||
+                string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) ||
+                string.IsNullOrWhiteSpace(position))
+            {
+                MessageBox.Show("Please fill in all fields.");
+                return;
+            }
 
+            // Lấy roleID từ giao diện 
+            int roleID = GetSelectedRoleId();
+
+            // Thêm nhân viên vào cơ sở dữ liệu
+            string hashPassword = HashPassword(password);
             InsertData(code, fullname, position, roleID, username, hashPassword);
+        }
+        private int GetSelectedRoleId()
+        {
+            
+            if (rbt_admin.Checked) return 1; // Admin
+            if (rbt_sale.Checked) return 2; // Sale
+            if (rbt_warehouse.Checked) return 3; // Warehouse
+            if (rbt_customer.Checked) return 4; // Customer
+
+            // Giá trị mặc định nếu không có vai trò nào được chọn
+            return 0;
         }
         private void InsertData(string code, string name, string position, int roleID, string username, string password)
         {

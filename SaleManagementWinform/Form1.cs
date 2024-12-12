@@ -39,26 +39,24 @@ namespace SaleManagementWinform
 
             string hashPassword = Utils.HashPassword(password);
 
-            bool checkLogin = CheckLogin(username, hashPassword);
+            // Kiểm tra đăng nhập và lấy RoleId
+            (bool checkLogin, int roleId) = CheckLogin( username, hashPassword);
 
             if (checkLogin)
             {
-
                 MenuForm main = new MenuForm();
+                LoadUserRole(main, roleId);
                 main.Show();
                 this.Hide();
-
             }
             else
             {
-
-
                 MessageBox.Show("Username or password is incorrect !");
             }
         }
-        private bool CheckLogin(string username, string hashedPassword)
+        private (bool, int) CheckLogin(string username, string hashedPassword)
         {
-            string query = "SELECT password FROM Employee WHERE username = @username";
+            string query = "SELECT password, RoleId FROM Employee WHERE username = @username";
 
             using (SqlConnection connection = new SqlConnection(Connection.SQLConnection))
             {
@@ -68,12 +66,18 @@ namespace SaleManagementWinform
                 try
                 {
                     connection.Open();
-                    object result = command.ExecuteScalar();
-
-                    if (result != null)
+                    using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        string storedHash = result.ToString(); // Retrieved hashed password
-                        return storedHash == hashedPassword;  // Compare the hashes
+                        if (reader.Read())
+                        {
+                            string storedHash = reader["password"].ToString(); // Lấy mật khẩu đã mã hóa
+                            int roleId = Convert.ToInt32(reader["RoleId"]); // Lấy RoleId
+
+                            if (storedHash == hashedPassword)
+                            {
+                                return (true, roleId); // Trả về true và RoleId nếu đăng nhập thành công
+                            }
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -82,28 +86,81 @@ namespace SaleManagementWinform
                 }
             }
 
-            return false; // Return false if username not found or any error occurs
+            return (false, 0); // Trả về false và RoleId = 0 nếu không tìm thấy người dùng hoặc có lỗi
         }
+        
         public static class Connection
         {
             public static string SQLConnection = "Server=WHALE;Database=SALE_MANGEMENT;Trusted_Connection=True;";
         }
-        public static class Utils
+        private void LoadUserRole(MenuForm main, int roleId)
         {
-            public static string HashPassword(string password)
+            switch (roleId)
             {
-                using (SHA256 sha256 = SHA256.Create())
-                {
-                    byte[] bytes = Encoding.UTF8.GetBytes(password);
-                    byte[] hashBytes = sha256.ComputeHash(bytes);
-                    StringBuilder builder = new StringBuilder();
-                    foreach (byte b in hashBytes)
-                    {
-                        builder.Append(b.ToString("x2")); // Convert to hexadecimal
-                    }
-                    return builder.ToString();
-                }
+                case 1: // Admin
+                    main.ShowProductButton();
+                    ShowAdminFeatures(main);
+                    break;
+                case 2: // Sale
+                    main.ShowProductButton();
+                    ShowSaleFeatures(main);
+                    break;
+                case 3: // Warehouse
+                    main.ShowProductButton();
+                    ShowWarehouseFeatures(main);
+                    break;
+                case 4: // Customer
+                    ShowCustomerFeatures(main);
+                    break;
+                default:
+                    MessageBox.Show("Role not recognized.");
+                    break;
             }
+        }
+        private void ShowAdminFeatures(MenuForm main)
+        {
+            // Hiển thị các chức năng dành cho Admin
+             main.ShowProductButton();
+            main.ShowCustomer();
+            main.ShowCustomerOrders();
+            main.ShowEmployee();
+            main.ShowOrder();
+            main.ShowPurchaseHistory();
+        }
+
+        private void ShowSaleFeatures(MenuForm main)
+        {
+            // Hiển thị các chức năng dành cho Sale
+            main.ShowEmployee();
+            main.ShowProductButton();
+            main.ShowOrder();
+            main.HideCustomer();
+            main.HidePurchaseHistory();
+            main.ShowCustomerOrders();
+        }
+
+        private void ShowWarehouseFeatures(MenuForm main)
+        {
+            // Hiển thị các chức năng dành cho Warehouse
+            main.ShowProductButton();
+            main.ShowOrder();
+            main.HideCustomer();
+            main.HideCustomerOrders();
+            main.HideEmployee();
+            main.HidePurchaseHistory();
+
+        }
+
+        private void ShowCustomerFeatures(MenuForm main)
+        {
+            // Hiển thị các chức năng dành cho Customer
+            main.HideCustomer();
+            main.HideEmployee();
+            main.HideProductButton();
+            main.HidePurchaseHistory();
+            main.HideCustomerOrders();
+            main.ShowOrder();
+            
         }
     }
 }

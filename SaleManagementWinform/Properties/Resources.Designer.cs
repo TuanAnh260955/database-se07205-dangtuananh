@@ -63,9 +63,39 @@ namespace SaleManagementWinform.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BMW5SeriesTOPJPG {
+            get {
+                object obj = ResourceManager.GetObject("BMW5SeriesTOPJPG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bugatti {
+            get {
+                object obj = ResourceManager.GetObject("bugatti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap design_logo_ban_hang_online {
             get {
                 object obj = ResourceManager.GetObject("design-logo-ban-hang-online", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ferrari {
+            get {
+                object obj = ResourceManager.GetObject("ferrari", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +123,16 @@ namespace SaleManagementWinform.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lamborghini {
+            get {
+                object obj = ResourceManager.GetObject("lamborghini", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_Btec {
             get {
                 object obj = ResourceManager.GetObject("logo Btec", resourceCulture);
@@ -103,9 +143,29 @@ namespace SaleManagementWinform.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Maybach {
+            get {
+                object obj = ResourceManager.GetObject("Maybach", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Premium_Vector___Customer_with_online_shopping_set_icons {
             get {
                 object obj = ResourceManager.GetObject("Premium Vector _ Customer with online shopping set icons", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap w_phantom_viii_8_1_635 {
+            get {
+                object obj = ResourceManager.GetObject("w-phantom-viii-8-1-635", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
