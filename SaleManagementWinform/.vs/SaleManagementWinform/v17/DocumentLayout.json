@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\purchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:purchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|d:\\database-se07205-dangtuananh\\salemanagementwinform\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|d:\\database-se07205-dangtuananh\\salemanagementwinform\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|d:\\database-se07205-dangtuananh\\salemanagementwinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|d:\\database-se07205-dangtuananh\\salemanagementwinform\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,6 +47,14 @@
       "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\updatepurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:updatepurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\oder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:oder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -23,32 +63,12 @@
       "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:customerorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\purchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:purchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\purchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:purchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\oder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:oder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|solutionrelative:menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FB70B7B-137B-43C5-81BE-F744AE5B173A}|SaleManagementWinform.csproj|D:\\database-se07205-dangtuananh\\SaleManagementWinform\\customerorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,23 +82,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "CustomerForm.cs",
+              "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "CustomerForm.cs",
+              "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\CustomerForm.cs",
+              "RelativeToolTip": "CustomerForm.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAswJAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:22:01.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerForm.cs [Design]",
+              "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "CustomerForm.cs",
+              "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\CustomerForm.cs [Design]",
+              "RelativeToolTip": "CustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:21:59.484Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:11:57.174Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdatePurchaseHistory.cs [Design]",
+              "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\UpdatePurchaseHistory.cs",
+              "RelativeDocumentMoniker": "UpdatePurchaseHistory.cs",
+              "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\UpdatePurchaseHistory.cs [Design]",
+              "RelativeToolTip": "UpdatePurchaseHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:54:37.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\UpdateEmployee.cs",
+              "RelativeDocumentMoniker": "UpdateEmployee.cs",
+              "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\UpdateEmployee.cs [Design]",
+              "RelativeToolTip": "UpdateEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:54:05.809Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PurchaseHistory.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\PurchaseHistory.cs",
               "RelativeDocumentMoniker": "PurchaseHistory.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\PurchaseHistory.cs",
               "RelativeToolTip": "PurchaseHistory.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAgwEwAAAAAAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAswH4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:11:25.972Z"
+              "WhenOpened": "2024-12-12T10:11:25.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Oder.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\Oder.cs",
               "RelativeDocumentMoniker": "Oder.cs",
@@ -90,67 +171,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "UpdateEmployee.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\UpdateEmployee.cs",
               "RelativeDocumentMoniker": "UpdateEmployee.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\UpdateEmployee.cs",
               "RelativeToolTip": "UpdateEmployee.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAwwJkAAAAjAAAA",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAowIAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:42:56.994Z"
+              "WhenOpened": "2024-12-12T07:42:56.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "EmployeeForm.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\EmployeeForm.cs",
               "RelativeDocumentMoniker": "EmployeeForm.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\EmployeeForm.cs",
               "RelativeToolTip": "EmployeeForm.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAmwE8AAAAZAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAAJMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:22:33.707Z"
+              "WhenOpened": "2024-12-12T07:22:33.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAYwCgAAAAIAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAowIYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T06:13:00.775Z"
+              "WhenOpened": "2024-12-12T06:13:00.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "MenuForm.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MenuForm.cs",
               "RelativeDocumentMoniker": "MenuForm.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MenuForm.cs",
               "RelativeToolTip": "MenuForm.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAmwHoAAAAAAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAzwHoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:16:02.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "PurchaseHistory.cs [Design]",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\PurchaseHistory.cs",
               "RelativeDocumentMoniker": "PurchaseHistory.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\PurchaseHistory.cs [Design]",
               "RelativeToolTip": "PurchaseHistory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:38:43.564Z"
+              "WhenOpened": "2024-12-12T10:38:43.564Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "customerorders.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\customerorders.cs",
               "RelativeDocumentMoniker": "customerorders.cs",
@@ -162,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "customerorders.cs [Design]",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\customerorders.cs",
               "RelativeDocumentMoniker": "customerorders.cs",
@@ -173,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Oder.cs [Design]",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\Oder.cs",
               "RelativeDocumentMoniker": "Oder.cs",
@@ -184,37 +269,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T14:40:44.916Z"
+              "WhenOpened": "2024-12-11T14:40:44.916Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAQwIUAAAAVAAAA",
+              "ViewState": "AQIAAI4AAAAAAAAAAADwv4UAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:21:33.896Z"
+              "WhenOpened": "2024-12-05T12:21:33.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "MenuForm.cs [Design]",
               "DocumentMoniker": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MenuForm.cs",
               "RelativeDocumentMoniker": "MenuForm.cs",
               "ToolTip": "D:\\database-se07205-dangtuananh\\SaleManagementWinform\\MenuForm.cs [Design]",
               "RelativeToolTip": "MenuForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:35:46.645Z"
+              "WhenOpened": "2024-12-05T10:35:46.645Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

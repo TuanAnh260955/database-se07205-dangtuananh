@@ -32,7 +32,6 @@
             this.btn_Customer = new System.Windows.Forms.Button();
             this.btn_Employee = new System.Windows.Forms.Button();
             this.btn_Purchase = new System.Windows.Forms.Button();
-            this.btn_Orders = new System.Windows.Forms.Button();
             this.btn_Logout = new System.Windows.Forms.Button();
             this.btn_CustomerOders = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -43,7 +42,7 @@
             // 
             this.btn_Product.BackColor = System.Drawing.Color.Yellow;
             this.btn_Product.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Product.Location = new System.Drawing.Point(686, 217);
+            this.btn_Product.Location = new System.Drawing.Point(686, 158);
             this.btn_Product.Name = "btn_Product";
             this.btn_Product.Size = new System.Drawing.Size(155, 44);
             this.btn_Product.TabIndex = 0;
@@ -55,7 +54,7 @@
             // 
             this.btn_Customer.BackColor = System.Drawing.Color.Lime;
             this.btn_Customer.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Customer.Location = new System.Drawing.Point(686, 71);
+            this.btn_Customer.Location = new System.Drawing.Point(686, 12);
             this.btn_Customer.Name = "btn_Customer";
             this.btn_Customer.Size = new System.Drawing.Size(155, 46);
             this.btn_Customer.TabIndex = 0;
@@ -67,7 +66,7 @@
             // 
             this.btn_Employee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_Employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Employee.Location = new System.Drawing.Point(686, 123);
+            this.btn_Employee.Location = new System.Drawing.Point(686, 64);
             this.btn_Employee.Name = "btn_Employee";
             this.btn_Employee.Size = new System.Drawing.Size(155, 42);
             this.btn_Employee.TabIndex = 0;
@@ -79,25 +78,13 @@
             // 
             this.btn_Purchase.BackColor = System.Drawing.Color.Green;
             this.btn_Purchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Purchase.Location = new System.Drawing.Point(686, 171);
+            this.btn_Purchase.Location = new System.Drawing.Point(686, 112);
             this.btn_Purchase.Name = "btn_Purchase";
             this.btn_Purchase.Size = new System.Drawing.Size(155, 40);
             this.btn_Purchase.TabIndex = 0;
             this.btn_Purchase.Text = "Purchase History";
             this.btn_Purchase.UseVisualStyleBackColor = false;
             this.btn_Purchase.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // btn_Orders
-            // 
-            this.btn_Orders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btn_Orders.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Orders.Location = new System.Drawing.Point(686, 12);
-            this.btn_Orders.Name = "btn_Orders";
-            this.btn_Orders.Size = new System.Drawing.Size(155, 53);
-            this.btn_Orders.TabIndex = 0;
-            this.btn_Orders.Text = "Orders";
-            this.btn_Orders.UseVisualStyleBackColor = false;
-            this.btn_Orders.Click += new System.EventHandler(this.button5_Click);
             // 
             // btn_Logout
             // 
@@ -113,7 +100,7 @@
             // btn_CustomerOders
             // 
             this.btn_CustomerOders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btn_CustomerOders.Location = new System.Drawing.Point(686, 267);
+            this.btn_CustomerOders.Location = new System.Drawing.Point(686, 218);
             this.btn_CustomerOders.Name = "btn_CustomerOders";
             this.btn_CustomerOders.Size = new System.Drawing.Size(155, 49);
             this.btn_CustomerOders.TabIndex = 3;
@@ -139,7 +126,6 @@
             this.Controls.Add(this.btn_CustomerOders);
             this.Controls.Add(this.btn_Logout);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btn_Orders);
             this.Controls.Add(this.btn_Purchase);
             this.Controls.Add(this.btn_Employee);
             this.Controls.Add(this.btn_Customer);
@@ -157,7 +143,6 @@
         private System.Windows.Forms.Button btn_Customer;
         private System.Windows.Forms.Button btn_Employee;
         private System.Windows.Forms.Button btn_Purchase;
-        private System.Windows.Forms.Button btn_Orders;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_Logout;
         private System.Windows.Forms.Button btn_CustomerOders;
